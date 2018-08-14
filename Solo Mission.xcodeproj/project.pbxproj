@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAB881D420F4089B0091058A /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB881D320F4089B0091058A /* MainMenuScene.swift */; };
+		BAB881D620F40ECA0091058A /* ExplosionSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAB881D520F40ECA0091058A /* ExplosionSound.wav */; };
+		BAB881D820F41AEE0091058A /* Fantasy_Game_Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAB881D720F41AEE0091058A /* Fantasy_Game_Background.mp3 */; };
+		BAE119FD20EAFDCA006B565F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE119FC20EAFDCA006B565F /* AppDelegate.swift */; };
+		BAE119FF20EAFDCA006B565F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAE119FE20EAFDCA006B565F /* GameScene.sks */; };
+		BAE11A0120EAFDCA006B565F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A0020EAFDCA006B565F /* Actions.sks */; };
+		BAE11A0320EAFDCA006B565F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE11A0220EAFDCA006B565F /* GameScene.swift */; };
+		BAE11A0520EAFDCA006B565F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE11A0420EAFDCA006B565F /* GameViewController.swift */; };
+		BAE11A0820EAFDCA006B565F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A0620EAFDCA006B565F /* Main.storyboard */; };
+		BAE11A0D20EAFDCB006B565F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A0B20EAFDCB006B565F /* LaunchScreen.storyboard */; };
+		BAE11A1820EAFDCB006B565F /* Solo_MissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE11A1720EAFDCB006B565F /* Solo_MissionTests.swift */; };
+		BAE11A2320EAFDCB006B565F /* Solo_MissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE11A2220EAFDCB006B565F /* Solo_MissionUITests.swift */; };
+		BAE11A3F20EB011F006B565F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A3E20EB011F006B565F /* Assets.xcassets */; };
+		BAE11A4120EBF286006B565F /* Bulletsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A4020EBF286006B565F /* Bulletsound.wav */; };
+		BAE11A4320EC4A4A006B565F /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A4220EC4A4A006B565F /* theBoldFont.ttf */; };
+		BAE11A4520EC5942006B565F /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE11A4420EC5942006B565F /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE11A1420EAFDCB006B565F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE119F120EAFDCA006B565F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE119F820EAFDCA006B565F;
+			remoteInfo = "Solo Mission";
+		};
+		BAE11A1F20EAFDCB006B565F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE119F120EAFDCA006B565F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE119F820EAFDCA006B565F;
+			remoteInfo = "Solo Mission";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAB881D320F4089B0091058A /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		BAB881D520F40ECA0091058A /* ExplosionSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ExplosionSound.wav; sourceTree = "<group>"; };
+		BAB881D720F41AEE0091058A /* Fantasy_Game_Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fantasy_Game_Background.mp3; sourceTree = "<group>"; };
+		BAE119F920EAFDCA006B565F /* Solo Mission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solo Mission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE119FC20EAFDCA006B565F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAE119FE20EAFDCA006B565F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BAE11A0020EAFDCA006B565F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BAE11A0220EAFDCA006B565F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BAE11A0420EAFDCA006B565F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BAE11A0720EAFDCA006B565F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE11A0C20EAFDCB006B565F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE11A0E20EAFDCB006B565F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE11A1320EAFDCB006B565F /* Solo MissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solo MissionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE11A1720EAFDCB006B565F /* Solo_MissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solo_MissionTests.swift; sourceTree = "<group>"; };
+		BAE11A1920EAFDCB006B565F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE11A1E20EAFDCB006B565F /* Solo MissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solo MissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE11A2220EAFDCB006B565F /* Solo_MissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solo_MissionUITests.swift; sourceTree = "<group>"; };
+		BAE11A2420EAFDCB006B565F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE11A3E20EB011F006B565F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE11A4020EBF286006B565F /* Bulletsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bulletsound.wav; sourceTree = SOURCE_ROOT; };
+		BAE11A4220EC4A4A006B565F /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		BAE11A4420EC5942006B565F /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE119F620EAFDCA006B565F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE11A1020EAFDCB006B565F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE11A1B20EAFDCB006B565F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE119F020EAFDCA006B565F = {
+			isa = PBXGroup;
+			children = (
+				BAE119FB20EAFDCA006B565F /* Solo Mission */,
+				BAE11A1620EAFDCB006B565F /* Solo MissionTests */,
+				BAE11A2120EAFDCB006B565F /* Solo MissionUITests */,
+				BAE119FA20EAFDCA006B565F /* Products */,
+				BAE11A4020EBF286006B565F /* Bulletsound.wav */,
+				BAB881D520F40ECA0091058A /* ExplosionSound.wav */,
+				BAB881D720F41AEE0091058A /* Fantasy_Game_Background.mp3 */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE119FA20EAFDCA006B565F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE119F920EAFDCA006B565F /* Solo Mission.app */,
+				BAE11A1320EAFDCB006B565F /* Solo MissionTests.xctest */,
+				BAE11A1E20EAFDCB006B565F /* Solo MissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE119FB20EAFDCA006B565F /* Solo Mission */ = {
+			isa = PBXGroup;
+			children = (
+				BAE119FC20EAFDCA006B565F /* AppDelegate.swift */,
+				BAE119FE20EAFDCA006B565F /* GameScene.sks */,
+				BAE11A0020EAFDCA006B565F /* Actions.sks */,
+				BAE11A3E20EB011F006B565F /* Assets.xcassets */,
+				BAE11A0220EAFDCA006B565F /* GameScene.swift */,
+				BAB881D320F4089B0091058A /* MainMenuScene.swift */,
+				BAE11A4420EC5942006B565F /* GameOverScene.swift */,
+				BAE11A0420EAFDCA006B565F /* GameViewController.swift */,
+				BAE11A0620EAFDCA006B565F /* Main.storyboard */,
+				BAE11A4220EC4A4A006B565F /* theBoldFont.ttf */,
+				BAE11A0B20EAFDCB006B565F /* LaunchScreen.storyboard */,
+				BAE11A0E20EAFDCB006B565F /* Info.plist */,
+			);
+			path = "Solo Mission";
+			sourceTree = "<group>";
+		};
+		BAE11A1620EAFDCB006B565F /* Solo MissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE11A1720EAFDCB006B565F /* Solo_MissionTests.swift */,
+				BAE11A1920EAFDCB006B565F /* Info.plist */,
+			);
+			path = "Solo MissionTests";
+			sourceTree = "<group>";
+		};
+		BAE11A2120EAFDCB006B565F /* Solo MissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE11A2220EAFDCB006B565F /* Solo_MissionUITests.swift */,
+				BAE11A2420EAFDCB006B565F /* Info.plist */,
+			);
+			path = "Solo MissionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE119F820EAFDCA006B565F /* Solo Mission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE11A2720EAFDCB006B565F /* Build configuration list for PBXNativeTarget "Solo Mission" */;
+			buildPhases = (
+				BAE119F520EAFDCA006B565F /* Sources */,
+				BAE119F620EAFDCA006B565F /* Frameworks */,
+				BAE119F720EAFDCA006B565F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solo Mission";
+			productName = "Solo Mission";
+			productReference = BAE119F920EAFDCA006B565F /* Solo Mission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE11A1220EAFDCB006B565F /* Solo MissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE11A2A20EAFDCB006B565F /* Build configuration list for PBXNativeTarget "Solo MissionTests" */;
+			buildPhases = (
+				BAE11A0F20EAFDCB006B565F /* Sources */,
+				BAE11A1020EAFDCB006B565F /* Frameworks */,
+				BAE11A1120EAFDCB006B565F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE11A1520EAFDCB006B565F /* PBXTargetDependency */,
+			);
+			name = "Solo MissionTests";
+			productName = "Solo MissionTests";
+			productReference = BAE11A1320EAFDCB006B565F /* Solo MissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE11A1D20EAFDCB006B565F /* Solo MissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE11A2D20EAFDCB006B565F /* Build configuration list for PBXNativeTarget "Solo MissionUITests" */;
+			buildPhases = (
+				BAE11A1A20EAFDCB006B565F /* Sources */,
+				BAE11A1B20EAFDCB006B565F /* Frameworks */,
+				BAE11A1C20EAFDCB006B565F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE11A2020EAFDCB006B565F /* PBXTargetDependency */,
+			);
+			name = "Solo MissionUITests";
+			productName = "Solo MissionUITests";
+			productReference = BAE11A1E20EAFDCB006B565F /* Solo MissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE119F120EAFDCA006B565F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alfonzo Sanfilippo";
+				TargetAttributes = {
+					BAE119F820EAFDCA006B565F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BAE11A1220EAFDCB006B565F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BAE119F820EAFDCA006B565F;
+					};
+					BAE11A1D20EAFDCB006B565F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BAE119F820EAFDCA006B565F;
+					};
+				};
+			};
+			buildConfigurationList = BAE119F420EAFDCA006B565F /* Build configuration list for PBXProject "Solo Mission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE119F020EAFDCA006B565F;
+			productRefGroup = BAE119FA20EAFDCA006B565F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE119F820EAFDCA006B565F /* Solo Mission */,
+				BAE11A1220EAFDCB006B565F /* Solo MissionTests */,
+				BAE11A1D20EAFDCB006B565F /* Solo MissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE119F720EAFDCA006B565F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB881D620F40ECA0091058A /* ExplosionSound.wav in Resources */,
+				BAE11A0820EAFDCA006B565F /* Main.storyboard in Resources */,
+				BAE11A4320EC4A4A006B565F /* theBoldFont.ttf in Resources */,
+				BAE119FF20EAFDCA006B565F /* GameScene.sks in Resources */,
+				BAE11A0D20EAFDCB006B565F /* LaunchScreen.storyboard in Resources */,
+				BAE11A0120EAFDCA006B565F /* Actions.sks in Resources */,
+				BAE11A4120EBF286006B565F /* Bulletsound.wav in Resources */,
+				BAB881D820F41AEE0091058A /* Fantasy_Game_Background.mp3 in Resources */,
+				BAE11A3F20EB011F006B565F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE11A1120EAFDCB006B565F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE11A1C20EAFDCB006B565F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE119F520EAFDCA006B565F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB881D420F4089B0091058A /* MainMenuScene.swift in Sources */,
+				BAE11A0320EAFDCA006B565F /* GameScene.swift in Sources */,
+				BAE11A0520EAFDCA006B565F /* GameViewController.swift in Sources */,
+				BAE11A4520EC5942006B565F /* GameOverScene.swift in Sources */,
+				BAE119FD20EAFDCA006B565F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE11A0F20EAFDCB006B565F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE11A1820EAFDCB006B565F /* Solo_MissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE11A1A20EAFDCB006B565F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE11A2320EAFDCB006B565F /* Solo_MissionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE11A1520EAFDCB006B565F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE119F820EAFDCA006B565F /* Solo Mission */;
+			targetProxy = BAE11A1420EAFDCB006B565F /* PBXContainerItemProxy */;
+		};
+		BAE11A2020EAFDCB006B565F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE119F820EAFDCA006B565F /* Solo Mission */;
+			targetProxy = BAE11A1F20EAFDCB006B565F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE11A0620EAFDCA006B565F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE11A0720EAFDCA006B565F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE11A0B20EAFDCB006B565F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE11A0C20EAFDCB006B565F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE11A2520EAFDCB006B565F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.4;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE11A2620EAFDCB006B565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos11.4;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE11A2820EAFDCB006B565F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Automatic;
+				DEVELOPMENT_TEAM = 995AHH2KFK;
+				INFOPLIST_FILE = "Solo Mission/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-Mission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE11A2920EAFDCB006B565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Automatic;
+				DEVELOPMENT_TEAM = 995AHH2KFK;
+				INFOPLIST_FILE = "Solo Mission/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-Mission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE11A2B20EAFDCB006B565F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo MissionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-MissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solo Mission.app/Solo Mission";
+			};
+			name = Debug;
+		};
+		BAE11A2C20EAFDCB006B565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo MissionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-MissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solo Mission.app/Solo Mission";
+			};
+			name = Release;
+		};
+		BAE11A2E20EAFDCB006B565F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo MissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-MissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Solo Mission";
+			};
+			name = Debug;
+		};
+		BAE11A2F20EAFDCB006B565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solo MissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-MissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Solo Mission";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE119F420EAFDCA006B565F /* Build configuration list for PBXProject "Solo Mission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE11A2520EAFDCB006B565F /* Debug */,
+				BAE11A2620EAFDCB006B565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE11A2720EAFDCB006B565F /* Build configuration list for PBXNativeTarget "Solo Mission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE11A2820EAFDCB006B565F /* Debug */,
+				BAE11A2920EAFDCB006B565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE11A2A20EAFDCB006B565F /* Build configuration list for PBXNativeTarget "Solo MissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE11A2B20EAFDCB006B565F /* Debug */,
+				BAE11A2C20EAFDCB006B565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE11A2D20EAFDCB006B565F /* Build configuration list for PBXNativeTarget "Solo MissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE11A2E20EAFDCB006B565F /* Debug */,
+				BAE11A2F20EAFDCB006B565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE119F120EAFDCA006B565F /* Project object */;
+}
