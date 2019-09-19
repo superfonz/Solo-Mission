@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "enemyShip.png",
+      "filename" : "EnemyShip.png",
       "scale" : "1x"
     },
     {
