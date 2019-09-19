@@ -11,8 +11,8 @@ import GameplayKit
 var gameScore = 0
 class GameScene: SKScene, SKPhysicsContactDelegate {
     let Player = SKSpriteNode(imageNamed: "playerShip")
-    let bulletsound = SKAction.playSoundFileNamed("Bulletsound.wav", waitForCompletion: false)
-    let explosionSound = SKAction.playSoundFileNamed("ExplosionSound.wav", waitForCompletion: false)
+    let bulletsound = SKAction.playSoundFileNamed("Bulletsound.mp3", waitForCompletion: false)
+    let explosionSound = SKAction.playSoundFileNamed("ExplosionSound.mp3", waitForCompletion: false)
     let tapToStartLabel = SKLabelNode(fontNamed: "The Bold Font")
     let scoreLabel = SKLabelNode(fontNamed: "The Bold Font")
     var livesNumber = 3

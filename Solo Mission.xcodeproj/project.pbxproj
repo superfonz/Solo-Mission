@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BAB881D420F4089B0091058A /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB881D320F4089B0091058A /* MainMenuScene.swift */; };
-		BAB881D620F40ECA0091058A /* ExplosionSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAB881D520F40ECA0091058A /* ExplosionSound.wav */; };
+		BAB881D620F40ECA0091058A /* ExplosionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAB881D520F40ECA0091058A /* ExplosionSound.mp3 */; };
 		BAB881D820F41AEE0091058A /* Fantasy_Game_Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAB881D720F41AEE0091058A /* Fantasy_Game_Background.mp3 */; };
 		BAE119FD20EAFDCA006B565F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE119FC20EAFDCA006B565F /* AppDelegate.swift */; };
 		BAE119FF20EAFDCA006B565F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAE119FE20EAFDCA006B565F /* GameScene.sks */; };
@@ -20,7 +20,7 @@
 		BAE11A1820EAFDCB006B565F /* Solo_MissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE11A1720EAFDCB006B565F /* Solo_MissionTests.swift */; };
 		BAE11A2320EAFDCB006B565F /* Solo_MissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE11A2220EAFDCB006B565F /* Solo_MissionUITests.swift */; };
 		BAE11A3F20EB011F006B565F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A3E20EB011F006B565F /* Assets.xcassets */; };
-		BAE11A4120EBF286006B565F /* Bulletsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A4020EBF286006B565F /* Bulletsound.wav */; };
+		BAE11A4120EBF286006B565F /* Bulletsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A4020EBF286006B565F /* Bulletsound.mp3 */; };
 		BAE11A4320EC4A4A006B565F /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAE11A4220EC4A4A006B565F /* theBoldFont.ttf */; };
 		BAE11A4520EC5942006B565F /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE11A4420EC5942006B565F /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		BAB881D320F4089B0091058A /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
-		BAB881D520F40ECA0091058A /* ExplosionSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ExplosionSound.wav; sourceTree = "<group>"; };
+		BAB881D520F40ECA0091058A /* ExplosionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ExplosionSound.mp3; sourceTree = "<group>"; };
 		BAB881D720F41AEE0091058A /* Fantasy_Game_Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fantasy_Game_Background.mp3; sourceTree = "<group>"; };
 		BAE119F920EAFDCA006B565F /* Solo Mission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solo Mission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE119FC20EAFDCA006B565F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		BAE11A2220EAFDCB006B565F /* Solo_MissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solo_MissionUITests.swift; sourceTree = "<group>"; };
 		BAE11A2420EAFDCB006B565F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE11A3E20EB011F006B565F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BAE11A4020EBF286006B565F /* Bulletsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bulletsound.wav; sourceTree = SOURCE_ROOT; };
+		BAE11A4020EBF286006B565F /* Bulletsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bulletsound.mp3; sourceTree = SOURCE_ROOT; };
 		BAE11A4220EC4A4A006B565F /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
 		BAE11A4420EC5942006B565F /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,8 +99,8 @@
 				BAE11A1620EAFDCB006B565F /* Solo MissionTests */,
 				BAE11A2120EAFDCB006B565F /* Solo MissionUITests */,
 				BAE119FA20EAFDCA006B565F /* Products */,
-				BAE11A4020EBF286006B565F /* Bulletsound.wav */,
-				BAB881D520F40ECA0091058A /* ExplosionSound.wav */,
+				BAE11A4020EBF286006B565F /* Bulletsound.mp3 */,
+				BAB881D520F40ECA0091058A /* ExplosionSound.mp3 */,
 				BAB881D720F41AEE0091058A /* Fantasy_Game_Background.mp3 */,
 			);
 			sourceTree = "<group>";
@@ -220,13 +220,16 @@
 				TargetAttributes = {
 					BAE119F820EAFDCA006B565F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
 					};
 					BAE11A1220EAFDCB006B565F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = BAE119F820EAFDCA006B565F;
 					};
 					BAE11A1D20EAFDCB006B565F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = BAE119F820EAFDCA006B565F;
 					};
 				};
@@ -256,13 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB881D620F40ECA0091058A /* ExplosionSound.wav in Resources */,
+				BAB881D620F40ECA0091058A /* ExplosionSound.mp3 in Resources */,
 				BAE11A0820EAFDCA006B565F /* Main.storyboard in Resources */,
 				BAE11A4320EC4A4A006B565F /* theBoldFont.ttf in Resources */,
 				BAE119FF20EAFDCA006B565F /* GameScene.sks in Resources */,
 				BAE11A0D20EAFDCB006B565F /* LaunchScreen.storyboard in Resources */,
 				BAE11A0120EAFDCA006B565F /* Actions.sks in Resources */,
-				BAE11A4120EBF286006B565F /* Bulletsound.wav in Resources */,
+				BAE11A4120EBF286006B565F /* Bulletsound.mp3 in Resources */,
 				BAB881D820F41AEE0091058A /* Fantasy_Game_Background.mp3 in Resources */,
 				BAE11A3F20EB011F006B565F /* Assets.xcassets in Resources */,
 			);
@@ -477,7 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-Mission";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -497,7 +500,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-Mission";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -516,7 +519,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-MissionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solo Mission.app/Solo Mission";
 			};
@@ -536,7 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-MissionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solo Mission.app/Solo Mission";
 			};
@@ -555,7 +558,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-MissionUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Solo Mission";
 			};
@@ -574,7 +577,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AlfonzoSanfilippoApps.Solo-MissionUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Solo Mission";
 			};
